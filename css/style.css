@@ -36,17 +36,17 @@ nav{
 .topnav .icon{
 	display: none;
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1018px){
 	nav{
 		margin-left: 20%;
 	}
 }
-@media screen and (max-width: 1105px){
+@media screen and (max-width: 887px){
 	nav{
 		margin-left: 10%;
 	}
 }
-@media screen and (max-width: 1010px){
+@media screen and (max-width: 776px){
 	.topnav a{
 		display: none;
 	}
