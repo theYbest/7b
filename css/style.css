@@ -21,7 +21,7 @@ header{
 }
 nav{
 	margin-top: 56px;
-	margin-left: 29%;
+	margin-left: 50%;
 }
 .topnav a{
 	color: #fff;
@@ -38,12 +38,12 @@ nav{
 }
 @media screen and (max-width: 1018px){
 	nav{
-		margin-left: 20%;
+		margin-left: 40%;
 	}
 }
 @media screen and (max-width: 887px){
 	nav{
-		margin-left: 10%;
+		margin-left: 30%;
 	}
 }
 @media screen and (max-width: 776px){
@@ -77,5 +77,21 @@ nav{
 		float: none;
 		display: block;
 		text-align: left;
+	}
+}
+@media screen and (max-width: 518px){
+	header .topnav.responsive{
+		height: 230px;
+	}
+	nav{
+		margin-left: 40%;
+	}
+}
+@media screen and (max-width: 390px){
+	nav{
+		margin-left: 50%;
+	}
+	.topnav a.icon{
+		right: -150px;
 	}
 }
